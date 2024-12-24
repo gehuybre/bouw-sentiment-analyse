@@ -10,6 +10,7 @@ def analyze_sentiment(text, language_code):
 
     Args:
         text: De te analyseren tekst.
+        language_code: De taal van de tekst.
 
     Returns:
         Een Sentiment object met score en magnitude.
@@ -39,10 +40,6 @@ def save_sentiment_results(data, filename="sentiment_results.json"):
         json.dump(data, f, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
-    
-    with open("config.json") as config_file:
-        config = json.load(config_file)
-    
     prepared_data = load_prepared_data()
     results_with_sentiment = []
 
@@ -50,7 +47,7 @@ if __name__ == "__main__":
         language_code = 'nl'
         sentiment_title = analyze_sentiment(item["title"], language_code)
         sentiment_snippet = analyze_sentiment(item["snippet"], language_code)
-        
+
         search_date = datetime.strptime(item["search_date"], "%Y-%m-%d")
         formatted_date = search_date.strftime("%Y-%m-%d")
 
