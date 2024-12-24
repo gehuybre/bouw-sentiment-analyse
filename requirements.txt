@@ -1,0 +1,5 @@
+requests
+google-api-python-client
+fuzzywuzzy
+python-Levenshtein
+google-cloud-language

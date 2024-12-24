@@ -1,0 +1,42 @@
+{
+    "google_search_api_key": "JOUW_GOOGLE_SEARCH_API_KEY",
+    "google_cloud_project_id": "JOUW_GOOGLE_CLOUD_PROJECT_ID",
+    "cse_id": "JOUW_CUSTOM_SEARCH_ENGINE_ID",
+    "search_terms": [
+      "residentieel vastgoed Vlaanderen",
+      "woningmarkt Vlaanderen",
+      "nieuwbouwprojecten Vlaanderen",
+      "woningbouw Vlaanderen",
+      "appartementen Vlaanderen",
+      "huizenmarkt Vlaanderen",
+      "vastgoedprijzen Vlaanderen",
+      "wooncrisis Vlaanderen",
+      "betaalbaar wonen Vlaanderen",
+      "sociale woningbouw Vlaanderen",
+      "bouwvergunningen Vlaanderen",
+      "huren Vlaanderen",
+      "kopen Vlaanderen",
+      "woontrends Vlaanderen",
+      "Vlaamse woonbonus"
+    ],
+    "regions": [
+      "Vlaanderen"
+    ],
+    "languages": [
+      "nl"
+    ],
+    "start_date": "2023-01-01",
+    "end_date": "2023-06-30",
+    "data_sources": [
+      {"name": "Nieuwsblad", "site": "nieuwsblad.be"},
+      {"name": "De Standaard", "site": "standaard.be"},
+      {"name": "Het Laatste Nieuws", "site": "hln.be"},
+      {"name": "De Tijd", "site": "tijd.be"},
+      {"name": "Gazet van Antwerpen", "site": "gva.be"},
+      {"name": "Het Belang van Limburg", "site": "hbvl.be"},
+      {"name": "VRT NWS", "site": "vrt.be/vrtnws/nl/"},
+      {"name": "De Morgen", "site": "demorgen.be"},
+      {"name": "Apache", "site": "apache.be"},
+      {"name": "Knack", "site": "knack.be"}
+    ]
+  }
